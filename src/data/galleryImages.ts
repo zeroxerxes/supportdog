@@ -1,0 +1,55 @@
+export interface GalleryImage {
+    src: string;
+    breed: 'Aussie' | 'Poodle' | 'Cane';
+    name: string;
+}
+
+export const galleryImages: GalleryImage[] = [
+    { src: 'Australian Shepherd 1 (1).jpg', breed: 'Aussie', name: 'Buddy' },
+    { src: 'Australian Shepherd 1 (2).jpg', breed: 'Aussie', name: 'Charlie' },
+    { src: 'Australian Shepherd 1 (3).jpg', breed: 'Aussie', name: 'Max' },
+    { src: 'Australian Shepherd 1 (5).jpg', breed: 'Aussie', name: 'Cooper' },
+    { src: 'Australian Shepherd 2 (1).jpg', breed: 'Aussie', name: 'Rocky' },
+    { src: 'Australian Shepherd 2 (2).jpg', breed: 'Aussie', name: 'Duke' },
+    { src: 'Australian Shepherd 2 (3).jpg', breed: 'Aussie', name: 'Jack' },
+    { src: 'Australian Shepherd 2 (4).jpg', breed: 'Aussie', name: 'Bear' },
+    { src: 'Australian Shepherd 2 (5).jpg', breed: 'Aussie', name: 'Milo' },
+    { src: 'Australian Shepherd 2 (6).jpg', breed: 'Aussie', name: 'Bentley' },
+    { src: 'Australian Shepherd 3 (1).jpg', breed: 'Aussie', name: 'Finn' },
+    { src: 'Australian Shepherd 3 (2).jpg', breed: 'Aussie', name: 'Ollie' },
+    { src: 'Australian Shepherd 3 (3).jpg', breed: 'Aussie', name: 'Zeus' },
+    { src: 'Australian Shepherd 4 (1).jpg', breed: 'Aussie', name: 'Baxter' },
+    { src: 'Australian Shepherd 4 (2).jpg', breed: 'Aussie', name: 'Buster' },
+    { src: 'Australian Shepherd 4 (3).jpg', breed: 'Aussie', name: 'Bruno' },
+
+    { src: 'Poodle 1 (1).jpg', breed: 'Poodle', name: 'Daisy' },
+    { src: 'Poodle 1 (2).jpg', breed: 'Poodle', name: 'Luna' },
+    { src: 'Poodle 1 (3).jpg', breed: 'Poodle', name: 'Bella' },
+    { src: 'Poodle 1 (4).jpg', breed: 'Poodle', name: 'Ginger' },
+    { src: 'Poodle 1 (5).jpg', breed: 'Poodle', name: 'Zoe' },
+    { src: 'Poodle 2 (1).jpg', breed: 'Poodle', name: 'Molly' },
+    { src: 'Poodle 2 (2).jpg', breed: 'Poodle', name: 'Lucy' },
+    { src: 'Poodle 2 (3).jpg', breed: 'Poodle', name: 'Nala' },
+    { src: 'Poodle 2 (4).jpg', breed: 'Poodle', name: 'Penny' },
+    { src: 'Poodle 2 (5).jpg', breed: 'Poodle', name: 'Ruby' },
+    { src: 'Poodle 3 (1).jpg', breed: 'Poodle', name: 'Sophie' },
+    { src: 'Poodle 3 (2).jpg', breed: 'Poodle', name: 'Chloe' },
+    { src: 'Poodle 3 (3).jpg', breed: 'Poodle', name: 'Gracie' },
+    { src: 'Poodle 4 (1).jpg', breed: 'Poodle', name: 'Oliver' },
+    { src: 'Poodle 4 (2).jpg', breed: 'Poodle', name: 'Leo' },
+    { src: 'Poodle 4 (3).jpg', breed: 'Poodle', name: 'Milo' },
+
+    { src: 'Cane Corso (1).jpg', breed: 'Cane', name: 'Zeus' },
+    { src: 'Cane Corso (2).jpg', breed: 'Cane', name: 'Thor' },
+    { src: 'Cane Corso (3).jpg', breed: 'Cane', name: 'Apollo' },
+    { src: 'Cane Corso (4).jpg', breed: 'Cane', name: 'Titan' },
+    { src: 'Cane Corso (5).jpg', breed: 'Cane', name: 'Hades' },
+    { src: 'Cane Corso 2 (1).jpg', breed: 'Cane', name: 'Rex' },
+    { src: 'Cane Corso 2 (2).jpg', breed: 'Cane', name: 'Brutus' },
+    { src: 'Cane Corso 2 (3).jpg', breed: 'Cane', name: 'Kaiser' },
+    { src: 'Cane Corso 2 (4).jpg', breed: 'Cane', name: 'Ares' },
+    { src: 'Cane Corso 3 (1).jpg', breed: 'Cane', name: 'Tank' },
+    { src: 'Cane Corso 3 (2).jpg', breed: 'Cane', name: 'Gunner' },
+    { src: 'Cane Corso 3 (6).jpg', breed: 'Cane', name: 'Major' },
+    { src: 'Cane Corso 3 (7).jpg', breed: 'Cane', name: 'Diesel' },
+];
