@@ -260,17 +260,16 @@ export default function Home() {
             }
             @media (max-width: 768px) {
                 .joy-grid { 
-                   display: flex;
-                   overflow-x: auto;
-                   padding-bottom: 1rem;
+                   /* Switch to a simple 2-column grid for stability */
+                   display: grid;
+                   grid-template-columns: repeat(2, 1fr);
                    gap: 1rem;
-                   scroll-snap-type: x mandatory;
+                   overflow-x: visible;
+                   padding-bottom: 0;
                 }
                 .joy-card {
-                   flex: 0 0 250px;
-                   scroll-snap-align: center;
+                   aspect-ratio: 1;
                 }
-                .joy-grid::-webkit-scrollbar { display: none; }
             }
         `}</style>
       </section>
