@@ -42,7 +42,7 @@ export default function Home() {
         <div className="hero-image-container">
           <div className="hero-blob"></div>
           <div className="hero-img-wrapper" style={{ position: 'relative', width: '100%', maxWidth: '500px', aspectRatio: '1' }}>
-            <img src="/dog-pics/Australian Shepherd 1 (1).jpg" alt="Support Dog" className="hero-img" style={{ width: '100%', height: 'auto' }} />
+            <img src="/dog-pics/australian-shepherd-1-1.jpg" alt="Support Dog" className="hero-img" style={{ width: '100%', height: 'auto' }} />
           </div>
         </div>
       </section>
